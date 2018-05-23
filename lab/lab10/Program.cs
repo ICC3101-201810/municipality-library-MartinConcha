@@ -69,7 +69,7 @@ namespace lab10
                                 parentesco2 = p2;
                             }
                         }
-                        Person persona = new Person(pn, ap, dt, direccion, rut, parentesco1, parentesco2);
+                        Person persona = new Person(pn, ap, dt, null, rut, null, null);
                         personas.Add(persona);
                     }
                     else if (respuesta1 == "2")
@@ -171,7 +171,7 @@ namespace lab10
                             }
                         }
                     }
-                    else if(respuesta1 == "4")
+                    else if(respuesta1 == "5")
                     {
                         break;
                     }
@@ -226,7 +226,7 @@ namespace lab10
                             pis = true;
                         }
                         else { pis = false; }
-                        Address direccion = new Address(dir, num, comuna, ciudad, persona, año, habitacion, baño, by, pis);
+                        Address direccion = new Address(dir, num, comuna, ciudad, null, año, habitacion, baño, by, pis);
                         direcciones.Add(direccion);
                     }
                     else if (respuesta1 == "2")
@@ -319,7 +319,7 @@ namespace lab10
                             dis = true;
                         }
                         else { dis = false; }
-                        Car auto = new Car(marca, modelo, año, persona, matricula, cinturon, dis);
+                        Car auto = new Car(marca, modelo, año, null, matricula, cinturon, dis);
                         autos.Add(auto);
                     }
                     else if(respuesta1 == "2")
@@ -342,7 +342,7 @@ namespace lab10
                             }
                         }
                     }
-                    else if(respuesta1 == "4")
+                    else if(respuesta1 == "3")
                     {
                         break;
                     }
@@ -357,5 +357,6 @@ namespace lab10
                 
             
         }
+
     }
 }

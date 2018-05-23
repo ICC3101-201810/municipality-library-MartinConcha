@@ -1,0 +1,9 @@
+Bonus:
+
+Entre las clases existe un error de asociación entre la clase Adress y la clase Person 
+ya que cada una depende de la otra, por lo que se genera una recursividad si se necesita
+crear un Adress o un Person, porque necesitas un Person para agregar un Adress y un Adress
+para agregar un Person.
+
+Se presenta otro error de composicion en Person ya que para crear un Person se necesita de
+dos otros Person por lo que también se genera un ciclo infinito de resolver.
