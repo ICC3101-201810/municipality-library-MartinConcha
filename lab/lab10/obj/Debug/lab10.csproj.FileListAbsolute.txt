@@ -103,3 +103,8 @@ C:\Users\ING\source\repos\lab10\lab10\obj\Debug\lab10.csproj.lab10.exe.config
 C:\Users\ING\source\repos\lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
 C:\Users\ING\source\repos\lab10\lab10\obj\Debug\lab10.exe
 C:\Users\ING\source\repos\lab10\lab10\obj\Debug\lab10.pdb
+C:\Users\Martín Concha\Desktop\municipality-library-MartinConcha\lab\lab10\obj\Debug\lab10.csprojResolveAssemblyReference.cache
+C:\Users\Martín Concha\Desktop\municipality-library-MartinConcha\lab\lab10\obj\Debug\lab10.exe.config
+C:\Users\Martín Concha\Desktop\municipality-library-MartinConcha\lab\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+C:\Users\Martín Concha\Desktop\municipality-library-MartinConcha\lab\lab10\obj\Debug\lab10.exe
+C:\Users\Martín Concha\Desktop\municipality-library-MartinConcha\lab\lab10\obj\Debug\lab10.pdb
